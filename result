@@ -1,0 +1,14 @@
+alexnet:0.50454(420000)
+
+name		train	val
+inceptionV3	55.62	53.12
+ResNet50	54.75	51.79
+ensemble	56.86	54.47
+
+
+prune_retrain
+
+name		train	val
+inceptionV3	56.99	53.59
+ResNet50	56.73	52.16
+ensemble	58.22	54.65
